@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400');
+
+html, body, section {
+  block-size: 100%;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section:nth-of-type(even) {
+  color: white;
+  background: #048BA8;
+}
+
+section:nth-of-type(odd) {
+  color: white;
+  background: #1F2041;
+}
+
+body {
+  margin: 0;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 75vw;
+  max-height: 75vh;
+  border: 5px solid black;
+}
+
+p {
+  max-width: 75vw;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#to-links {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline:n one;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: 'Signika Negative', sans-serif;
+}
