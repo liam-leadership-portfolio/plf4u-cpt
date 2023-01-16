@@ -101,6 +101,8 @@ li a:hover {
 }
 
 #bowling-pins {
+  width: 45vw;
+  height: auto;
   padding: 10px 0px 0px;
   margin: 0px 0px 10px 20px;
 }
